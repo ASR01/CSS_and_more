@@ -14,7 +14,7 @@ body{
         color:var(--primary-color);
         font-family: 'Abril Fatface', sans-serif;
         font-size:18px;
-        margin: 0;
+        padding: 10px;
         display: flex;
         flex-direction: column;
 }
@@ -26,24 +26,26 @@ h1{
 }
 
 .navbar{
- 
+   
+    background-color:var(--main-bg-color);
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
+    align-content:space-between ;
     font-size:20px;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 30px;
     font-family: 'Abril Fatface', sans-serif;
-
+    
 }
 
 .contact{
- 
+    background-color:var(--main-bg-color);
+    
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
