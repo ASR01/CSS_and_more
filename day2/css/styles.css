@@ -1,0 +1,41 @@
+:root {
+    --carousel-interval: 10000;
+    --claret: #8b1e3fff;
+    --dark-purple: #3c153bff;
+    --eton-blue: #89bd9eff;
+    --gold-crayola: #f0c987ff;
+    --cinnabar: #db4c40ff;
+
+    --max-width: 600
+
+}
+
+#myCarousel img {
+
+    width: auto;
+    
+    
+    max-height: 800px;
+    
+    }
+
+.the_good{
+
+    color:var(--claret);
+
+}
+
+.mb-3{
+
+    max-width:var(--max-width);
+
+}
+
+.myiframe{
+    max-width:var(--max-width);
+    max-height:50;
+}
+
+.the_ugly{
+    background-color:var(--claret) ;
+}
